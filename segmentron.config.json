@@ -1,18 +1,16 @@
 {
-    "segmentron": {
-        "bisenet": "resnet18 resnet34",
-        "cgnet": "",
-        "contextnet": "",
-        "dabnet": "",
-        "deeplabv3_plus": "mobilenet_v2 resnet18 resnet34 resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c xception65",
-        "denseaspp": "mobilenet_v2 resnet18 resnet34 resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c",
-        "dfanet": "resnet34",
-        "fcn": "resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c xception65",
-        "fpenet": "",
-        "hrnet": "hrnet_w18_small_v1",
-        "lednet": "",
-        "ocnet": "resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c xception65",
-        "pspnet": "resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c xception65",
-        "unet": ""
-    }
+    "bisenet": "resnet18 resnet34",
+    "cgnet": "",
+    "contextnet": "",
+    "dabnet": "",
+    "deeplabv3_plus": "mobilenet_v2 resnet18 resnet34 resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c xception65",
+    "denseaspp": "mobilenet_v2 resnet18 resnet34 resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c",
+    "dfanet": "resnet34",
+    "fcn": "resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c xception65",
+    "fpenet": "",
+    "hrnet": "hrnet_w18_small_v1",
+    "lednet": "",
+    "ocnet": "resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c xception65",
+    "pspnet": "resnet50 resnet101 resnet152 resnet50c resnet101c resnet152c xception65",
+    "unet": ""
 }
