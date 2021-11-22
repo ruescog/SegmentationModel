@@ -1,6 +1,6 @@
 {
     "smp": {
-        "modelos": "deeplabv3 deeplabv3plus fpn linknet manet pan pspnet unet unetplusplus",
+        "arquitecturas": "deeplabv3 deeplabv3plus fpn linknet manet pan pspnet unet unetplusplus",
         "esqueletos": {
             "resnet18": "imagenet ssl swsl",
             "resnet34": "imagenet",
