@@ -9,4 +9,5 @@
 Contenido
 --------
 .. toctree::
-   utilización
+   instalación
+   uso

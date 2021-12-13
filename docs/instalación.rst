@@ -1,4 +1,4 @@
-.. _instalación: Instalación
+Instalación
 =====
 
 Para instalar ``segmentationmodel``, se debe ejecutar el siguiente comando (usando pip):
