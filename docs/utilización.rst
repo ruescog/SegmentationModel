@@ -10,12 +10,16 @@ Para utilizar la fachada ``segmentationmodel``, primero se debe instalar usando 
 
    $ pip install segmentationmodel
 
+``` shell
+comando y tal
+```
+
 .. code-block:: bash
    $ pip install segmentationmodel
 
 Este comando instalará todos los paquetes necesarios para usar la librería.
 
-Si vas a hacer uso de la librería ``mmsegmentation``, deberás instalar manualmente los paquetes de esta librería:
+Si vas a hacer uso de la librería ``mmsegmentation``, deberás instalar manualmente sus paquetes:
 
 .. code-block:: bash
    $ pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.6.0/index.html
