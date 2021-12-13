@@ -1,6 +1,9 @@
 Uso
 =====
 
+SegmentationManager
+-----
+
 A la hora de usar la librería, se utilizará la función
 ``SegmentationManager.crear_modelo(arquitectura, esqueleto, pesos, dataloader, num_clases, **kwargs)``.
 Donde:
@@ -17,4 +20,24 @@ Donde:
   
 - ``**kwargs**``: son otros argumentos que puedan servir para crear el modelo.
   
-y esto es todo amigos =).
+Esta función hará las acciones necesarias para crear el modelo deseado y lo devolverá encapsulado en un
+objeto de tipo ``SegmentationModel``.
+
+SegmentationModel
+-----
+
+Este objeto es una encapsulación del modelo creado. Aunque no sea necesario, se pueden obtener sus
+metadatos de la siguiente forma:
+
+- ``libreria``: la librería con la que se ha creado el modelo.
+
+- ``modelo``: el modelo en cuestión.
+
+- ``arquitectura``: la arquitectura del modelo.
+
+- ``esqueleto``: el esqueleto de modelo.
+
+- ``pesos``: los pesos del esqueleto.
+
+Una vez creado el objeto, se podrá entrenar el modelo (independientemente de cuál sea) con la función
+SegmentationModel.entrenar().
