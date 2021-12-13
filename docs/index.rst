@@ -9,4 +9,4 @@
 Contenido
 --------
 .. toctree::
-   usage
+   utilización
