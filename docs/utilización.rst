@@ -6,9 +6,9 @@ Instalación
 
 Para utilizar la fachada ``segmentationmodel``, primero se debe instalar usando pip:
 
-.. code-block:: python
-   $ pip install segmentationmodel
+.. code-block:: console
 
+   $ pip install segmentationmodel
 
 .. code-block:: bash
    $ pip install segmentationmodel
