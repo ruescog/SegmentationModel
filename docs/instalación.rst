@@ -7,7 +7,8 @@ Para instalar ``segmentationmodel``, se debe ejecutar el siguiente comando (usan
 
    $ pip install segmentationmodel
 
-Este comando instalará todos los paquetes necesarios para usar la librería excepto los relacionados con ``mmsegmentation``.
+Este comando instalará todos los paquetes necesarios para usar la librería excepto los relacionados
+con ``mmsegmentation``.
 
 Si vas a hacer uso de la librería ``mmsegmentation``, deberás instalar manualmente sus paquetes:
 
@@ -15,7 +16,9 @@ Si vas a hacer uso de la librería ``mmsegmentation``, deberás instalar manualm
 
    $ pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu101/torch1.6.0/index.html
 
-Si además deseas hacer uso de CUDA para aumentar la velocidad de entrenamiento de los modelos, deberás actualizar las versiones de ``torch`` y ``torchvision`` para que puedan hacer uso de CUDA. Si es así, instala:
+Si además deseas hacer uso de CUDA para aumentar la velocidad de entrenamiento de los modelos, deberás
+actualizar las versiones de ``torch`` y ``torchvision`` para que puedan hacer uso de CUDA. Si es así,
+instala:
 
 .. code-block:: console
 
@@ -27,4 +30,6 @@ Si además deseas hacer uso de CUDA para aumentar la velocidad de entrenamiento 
 
 .. note::
 
-   ``mmsegmentation`` es un repositorio que está en desarrollo actualmente, por lo que las versiones de las librerías ``mmcv-full``, ``torch`` y ``torchvision`` podrían necesitar una versión más actualizada.
+   ``mmsegmentation`` es un repositorio que está en desarrollo actualmente, por lo que las versiones
+   de las librerías ``mmcv-full``, ``torch`` y ``torchvision`` podrían necesitar una versión más
+   actualizada.
