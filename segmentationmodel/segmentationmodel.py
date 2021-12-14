@@ -92,13 +92,20 @@ class SegmentationModel():
         self.esqueleto = esqueleto
         self.pesos = pesos
 
-    def entrenar(self):
+    def learning_rate(self):
+        self.modelo.lr_find()
+        self.modelo.learn.recorder
+
+    def entrenar(self, **kwargs):
+        """
+        Aplica la función fit_one_cycle al modelo.
+        """
+        
         if self.libreria == "mmsegmentation":
             # TODO entrenar un modelo para las librerías ...
             pass
         else:
-            # TODO entrenar un modelo para las librerías ...
-            pass
+            self.modelo.fit_one_cycle(**kwargs)
 
 
 class SegmentationManager():

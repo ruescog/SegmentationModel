@@ -1,14 +1,14 @@
-¡Bienvenido a la documentación de SegmentationModel!
+Wellcome to SegmentationModel documentation!
 ===================================
 
-``SegmentationModel`` es un proyecto cuyo objetivo es aportar una fachada que simplifique el uso de las
-librerías ``semtorch``, ``segmentron``, ``segmentation_models_pytorch`` y ``mmsegmentation``.
+``SegmentationModel`` is a project whose objective is to provide a facade that simplifies the use of
+``semtorch``, ``segmentron``, ``segmentation_models_pytorch`` and ``mmsegmentation`` libraries.
 
 .. note::
-   Este proyecto está siendo desarrollado actualmente.
+   This proyect is under development.
 
-Contenido
+Content
 --------
 .. toctree::
-   instalación
-   uso
+   installation
+   usage
